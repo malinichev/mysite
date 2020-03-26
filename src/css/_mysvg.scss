@@ -1,0 +1,95 @@
+.mysvg2{
+    width: 100%;
+    height: auto;
+    position: relative;
+    overflow: hidden;
+    
+    .Rubl{
+        position: absolute;
+        top: calc(126.031vw - 35vw);
+        // top: calc(126.031vw - 112px);
+        // top: calc(348.01px + 51.99px - 133px + 112.65px + 23.65px);
+        right: 0;
+        width: 65.313vw;
+        height: 129.063vw;
+        z-index: -1;
+    }
+    .znakSleva{
+        display: none;
+    }
+   
+  
+}
+
+
+@media (min-width: 768px) { 
+    .mysvg2{
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        
+        .Rubl{
+            position: absolute;
+            top: 46.219vw;
+            // top: calc(348.01px + 51.99px - 93px + 23.65px + 24.31px);
+            right: 0;
+            height: 92.969vw;
+            width: 47.005vw;
+            z-index: 0;
+        }
+        .znakSleva{
+            position: absolute;
+            display: block;
+            top: 2.342vw;
+            left: -15.823vw;
+            // top: 18px;
+            // left: -351.02px;
+            z-index: -1;
+            width: 72.919vw;
+            height: 106.574vw;
+        }
+    }
+}
+@media (min-width: 1440px) { 
+    .mysvg2{
+        width: 100%;
+        overflow: hidden;
+        position: relative;
+        
+        .Rubl{
+            display: none;
+            position: absolute;
+            top: calc(25.206vw);
+            // top: calc(348.01px + 51.99px - 93px + 23.65px + 32.31px);
+            // top: 0;
+            right: 0;
+            height: 46.478vw;
+            width: 37.3vw;
+            // height: 669.29px;
+            // width: 537.12px;
+            
+        }
+        .Rubl3{
+            display: block;
+            position: absolute;
+            top: 56.506vw;
+            // top: calc(782.98px + 30.71px);
+            // top: 0;
+            right: 0;
+            height: 65.556vw;
+            width: 37.014vw;
+            // height: 944px;
+            // width: 533px;
+        }
+        .znakSleva{
+            position: absolute;
+            display: block;
+            top: -5vw;
+            left: -7.833vw;
+            z-index: -1;
+            
+            width: 53.351vw;
+            height: 77.976vw;
+        }
+    }
+}

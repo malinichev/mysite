@@ -1,0 +1,42 @@
+
+html {
+    box-sizing: border-box;
+    
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+body {
+    // background-color: hsl(200, 80%, 30%);
+    // background-image: radial-gradient(hsl(200, 80%, 30%), hsl(210, 80%, 20%));
+    color: white;
+    font-family: Avenir Next Cyr, Helvetica, Arial, sans-serif;
+    // line-height: 1.4;
+    // width: 100%;
+    
+    margin: 0;
+    min-width: 320px;
+
+}
+h1, h2, h3 {
+    font-family: Avenir Next Cyr, serif;
+    font-weight: 400;
+}
+p{
+    color: black;
+}
+main {
+    display: block;
+}
+img {
+    max-width: 100%;
+}
+input{
+    outline: none;
+}
+button{
+    outline: none;
+}
+

@@ -1,0 +1,583 @@
+// Кейсы
+
+
+.section5{
+    
+    h2{
+        margin: 0 0 0 0;
+        height: 16.247vw;
+        // margin: 112.08px 0 0 0;
+        // height: 51.99px;
+        font-family: Avenir Next Cyr;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 7.5vw;
+        line-height: 10vw;
+        // font-size: 24px;
+        // line-height: 32px;
+        /* or 133% */
+        text-align: center;
+        letter-spacing: 0.985946px;
+
+        color: #000000;
+    }
+    .cover3Slider{
+        // margin: 0 0 136px 0;
+        // height: calc(272px + 136px );
+
+        
+        .slide3{
+            margin: 0 0 0 0;
+            
+            
+            .slick-list {
+                padding: 16.253vw 0 42.5vw 12.897vw;
+                // padding: 52.01px 0 136px calc(24px + 17.27px);
+                margin: 0 0 0 calc(-5.397vw);
+                // margin: 0 0 0 calc(-17.27px);
+                .slick-track > .slick-slide {
+                    background:transparent;
+                    margin: 0 0 0 calc(5.397vw);
+                }
+            }
+            .slick-dots{
+                bottom: initial;
+                // top: calc(-52.43px - 8px);
+                top: 0;
+                li{
+                    height: 2.5vw;
+                    width: 2.5vw;
+                    // height: 8px;
+                    // width: 8px;
+                    margin: 0 1.25vw;
+                    .slider3dots{
+                        display: block;
+                        height: 2.5vw;
+                        width: 2.5vw;
+                        // width: 8px;
+                        // height: 8px;
+                        border-radius: 50%;
+                        border: 0;
+                        background: #E8E9EA;
+                        transition: 0.5s;
+                        &:hover{
+                            /* Gradient_Light */
+                            background: linear-gradient(180deg, #00B8F0 0%, #00B8F0 0.01%, #B2EEFC 73.96%);
+                            /* Свечение объектов */
+                            box-shadow: 0px -3px 6px rgba(56, 152, 254, 0.4);
+                        }
+                    }
+                }
+                li.slick-active{
+                    .slider3dots{
+                    /* Gradient_Light */
+                    transition: 0.5s;
+                    background: linear-gradient(180deg, #00B8F0 0%, #00B8F0 0.01%, #B2EEFC 73.96%);
+                    /* Свечение объектов */
+                    box-shadow: 0px -3px 6px rgba(56, 152, 254, 0.4);
+                    }
+    
+                }
+                
+            }
+            .slide3Item{
+                width: 70vw;
+                height: 85vw;
+                padding: 9.903vw 5vw 8.241vw 7.5vw;
+                // width: 224px;
+                // height: 272px;
+                // padding: 31.69px 16px 26.37px 24px;
+                background: #FFFFFF;
+                box-shadow: 0px -3px 50px rgba(56, 152, 254, 0.187528);
+                .slide3_svgHead{
+                    display: flex;
+                    justify-content: flex-start;
+                    align-items: center;
+                    margin-bottom: 8.147vw;
+                    .slide3bitrix24__svg{
+                        width: 11.347vw;
+                        height: 6.678vw;
+                        margin-right: 1.569vw;
+                    }
+                    // margin-bottom: 26.07px;
+                    // .slide3bitrix24__svg{
+                    //     width: 36.31px;
+                    //     height: 21.37px;
+                    //     margin-right: 5.02px;
+                    // }
+                    .slide3znak__svg{
+                        width: 12.709vw;
+                        height: 7.953vw;
+                        margin-right: 1.569vw;
+                    }
+                    // .slide3znak__svg{
+                    //     width: 40.67px;
+                    //     height: 25.45px;
+                    //     margin-right: 5.02px;
+                    // }
+                    .slide3tochka__svg{
+                        height: 7.953vw;
+                        width: 18.125vw;
+                    }
+                    // .slide3tochka__svg{
+                    //     height: 25.45px;
+                    //     width: 58px;
+                    // }
+                }
+                .slide3Item__text{
+                    width: 57.5vw;
+                    height: 42.169vw;
+                    margin-bottom: 6.094vw;
+                    // width: 184px;
+                    // height: 134.94px;
+                    // margin-bottom: 19.5px;
+
+                    font-family: Avenir Next Cyr;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 7.5vw;
+                    line-height: 10vw;
+                    // font-size: 24px;
+                    // line-height: 32px;
+                    /* or 133% */
+                    letter-spacing: 0.1px;
+
+                    color: #3E464F;
+
+                }
+                .slide3_svgFooter{
+                    display: flex;
+                    align-items: center;
+                    margin-left: 0.847vw;
+                    // margin-left: calc(26.76px - 24px);
+                    .svgFooter__numView{
+                        display: flex;
+                        align-items: center;
+                        
+                        .slide3glaz__svg{
+                            width: 5.325vw;
+                            height: 3.144vw;
+                            margin-right: 1.309vw;
+                            // width: 17.04px;
+                            // height: 10.06px;
+                            // margin-right: 4.19px;
+                        }
+                        span{
+                            text-align: center;
+                            width: 10.406vw;
+                            height: 5.131vw;
+                            // width: 33.3px;
+                            // height: 16.42px;
+                            font-family: Avenir Next Cyr;
+                            font-style: normal;
+                            font-weight: bold;
+                            font-size: 3.75vw;
+                            line-height: 5vw;
+                            // font-size: 12px;
+                            // line-height: 16px;
+                            text-align: center;
+                            letter-spacing: 2.4px;
+
+                            color: #9FA3A7;
+                            margin-right: 7.666vw;
+                            // margin-right: 24.53px;
+                        }
+                    }
+                    .slide3heart__svg{
+                        width: 3.856vw;
+                        height: 3.344vw;
+                        // width: 12.34px;
+                        // height: 10.7px;
+                    }
+                }
+            }
+        }
+    }
+
+
+}
+
+@media (min-width: 768px) { 
+    .section5{
+        h2{
+            text-align: left;
+            margin: 0 0 0 9.061vw;
+            height: 6.77vw;
+            // margin: 0 0 0 69.59px;
+            // height: 51.99px;
+            /* H0_960 */
+            font-family: Avenir Next Cyr;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 4.167vw;
+            line-height: 6.25vw;
+            // font-size: 32px;
+            // line-height: 48px;
+            /* or 150% */
+            letter-spacing: 0.985946px;
+
+            color: #000000;
+
+        }
+        .cover3Slider{
+            // height: calc(272px + 136px );
+    
+            
+            .slide3{
+                margin: 0 0 0 0;
+                
+                
+                .slick-list {
+                    padding: 12.241vw 0 23.258vw calc(9.061vw);
+                    // padding: 94.01px 0 178.62px calc(69.59px);
+                    margin: 0 0 0 calc(0px);
+                    .slick-track {
+                        .slick-active{
+                            transition: 0.5s;
+                            box-shadow: 0px -3px 50px rgba(56, 152, 254, 0.187528);
+                        }
+                        .slick-slide {
+                            background:transparent;
+                            margin: 0 0 0 calc(6.25vw);
+                            // margin: 0 0 0 calc(48px);
+                            
+                        }
+                    } 
+                }
+                .slick-dots{
+                    bottom: initial;
+                    // top: calc(-52.43px - 8px);
+                    top: 4.949vw;
+                    display: flex;
+                    padding: 0 0 0 9.454vw;
+                    li{
+                        height: 1.042vw;
+                        width: 1.042vw;
+                        margin: 0 0.521vw;
+                        // height: 8px;
+                        // width: 8px;
+                        // margin: 0 4px;
+                        .slider3dots{
+                            display: block;
+                            // width: 8px;
+                            // height: 8px;
+                            height: 1.042vw;
+                            width: 1.042vw;
+                            border-radius: 50%;
+                            border: 0;
+                            background: #E8E9EA;
+                            transition: 0.5s;
+                            &:hover{
+                                /* Gradient_Light */
+                                background: linear-gradient(180deg, #00B8F0 0%, #00B8F0 0.01%, #B2EEFC 73.96%);
+                                /* Свечение объектов */
+                                box-shadow: 0px -3px 6px rgba(56, 152, 254, 0.4);
+                            }
+                        }
+                    }
+                    li.slick-active{
+                        .slider3dots{
+                        transition: 0.5s;
+                        /* Gradient_Light */
+                        background: linear-gradient(180deg, #00B8F0 0%, #00B8F0 0.01%, #B2EEFC 73.96%);
+                        /* Свечение объектов */
+                        box-shadow: 0px -3px 6px rgba(56, 152, 254, 0.4);
+                        }
+        
+                    }
+                    
+                }
+                .slide3Item{
+                    min-width: 37.814vw;
+                    height: 48.617vw;
+                    padding: 4.189vw 3.125vw 3.898vw 4.509vw;
+                    // min-width: 290.41px;
+                    // height: 373.38px;
+                    // padding: 32.17px 24px 29.94px 34.63px;
+                    background: #FFFFFF;
+                    box-shadow: none;
+                    transition: 0.5s;
+                    &:hover{
+                        box-shadow: 0px -3px 50px rgba(56, 152, 254, 0.187528);
+                    }
+                    
+
+                    .slide3_svgHead{
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+                        margin-bottom: 4.336vw;
+                        .slide3bitrix24__svg{
+                            width: 6.13vw;
+                            height: 3.642vw;
+                            margin-right: 0.848vw;
+                        }
+                        // margin-bottom: 33.3px;
+                        // .slide3bitrix24__svg{
+                        //     width: 47.08px;
+                        //     height: 27.97px;
+                        //     margin-right: 6.51px;
+                        // }
+                        // .slide3znak__svg{
+                        //     width: 52.72px;
+                        //     height: 25.45px;
+                        //     margin-right: 6.51px;
+                        // }
+                        // .slide3tochka__svg{
+                        //     height: 25.45px;
+                        //     width: 58px;
+                        // }
+                        .slide3znak__svg{
+                            width: 6.865vw;
+                            height: 3.314vw;
+                            margin-right: 0.848vw;
+                        }
+                        .slide3tochka__svg{
+                            height: 3.314vw;
+                            width: 7.552vw;
+                        }
+                    }
+                    .slide3Item__text{
+                        width: 30.96vw;
+                        height: 28.427vw;
+                        margin-bottom: 2.188vw;
+                        padding: 0 4.557vw 0 0;
+                        // width: 237.77px;
+                        // height: 218.32px;
+                        // margin-bottom: 16.8px;
+    
+                        font-family: Avenir Next Cyr;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 4.167vw;
+                        line-height: 5.208vw;
+                        // font-size: 32px;
+                        // line-height: 40px;
+                        /* or 125% */
+                        letter-spacing: 0.44px;
+                        
+                        color: #3E464F;
+    
+                    }
+                    .slide3_svgFooter{
+                        display: flex;
+                        align-items: center;
+                        margin-left: 0;
+                        .svgFooter__numView{
+                            display: flex;
+                            align-items: center;
+                            // margin-right: 43.34px;
+                            margin-right: 5.643vw;
+                            .slide3glaz__svg{
+                                width: 2.344vw;
+                                height: 1.673vw;
+                                margin-right: 1.107vw;
+                                // width: 18px;
+                                // height: 12.85px;
+                                // margin-right: 8.5px;
+                            }
+                            span{
+                                text-align: center;
+                                width: 4.578vw;
+                                height: 1.802vw;
+                                // width: 35.16px;
+                                // height: 13.84px;
+                               /* Text_Info_1 */
+                                font-family: Avenir Next Cyr;
+                                font-style: normal;
+                                font-weight: bold;
+                                font-size: 1.563vw;
+                                line-height: 2.083vw;
+                                // font-size: 12px;
+                                // line-height: 16px;
+                                text-align: center;
+                                letter-spacing: 2.4px;
+
+                                color: #9FA3A7;
+                            }
+                        }
+                        .slide3heart__svg{
+                            width: 1.607vw;
+                            height: 1.393vw;
+                            // width: 12.34px;
+                            // height: 10.7px;
+                        }
+                    }
+                }
+            }
+        }
+    
+    
+    }
+}
+@media (min-width: 1440px) { 
+    .section5{
+        h2{
+            text-align: left;
+            margin: 0 0 0 18.333vw;
+            height: 3.61vw;
+            // margin: 0 0 0 264px;
+            // height: 51.99px;
+            /* H0 */
+            font-family: Avenir Next Cyr;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 2.778vw;
+            line-height: 3.889vw;
+            // font-size: 40px;
+            // line-height: 56px;
+            /* or 140% */
+            letter-spacing: 0.985946px;
+
+            color: #000000;
+
+        }
+        .cover3Slider{
+            height: auto;
+    
+            
+            .slide3{
+                // margin: 0 0 0 0;
+                
+                
+                .slick-list {
+                    padding: 6.945vw 0 13.82vw calc(12.778vw);
+                    // padding: 100.01px 0 199.01px calc(184px);
+                    margin: 0 0 0 calc(0px);
+                    .slick-track {
+                        .slick-active{
+                            transition: 0.5s;
+                            box-shadow: 0px -3px 50px rgba(56, 152, 254, 0.187528);
+                        }
+                        .slick-slide {
+                            background:transparent;
+                            margin: 0 0 0 calc(4.444vw);
+                            // margin: 0 0 0 calc(69.59px);
+                        }
+                    } 
+                }
+                .slick-dots{
+                    display: none;
+                }
+                .slide3Item{
+                    min-width: 23.333vw;
+                    height: 30vw;
+                    padding: 2.465vw 0.069vw 1.722vw 2.783vw;
+                    // min-width: 336px;
+                    // height: 432px;
+                    // padding: 35.5px 0.99px 24.79px 40.07px;
+                    background: #FFFFFF;
+                    box-shadow: none;
+                    transition: 0.5s;
+                    &:hover{
+                        box-shadow: 0px -3px 50px rgba(56, 152, 254, 0.187528);
+                    }
+                    
+
+                    .slide3_svgHead{
+                        display: flex;
+                        justify-content: flex-start;
+                        align-items: center;
+                        margin-bottom: 2.664vw;
+                        // margin-bottom: 38.36px;
+                        .slide3bitrix24__svg{
+                            width: 3.783vw;
+                            height: 2.247vw;
+                            margin-right: 0.523vw;
+                            // width: 54.47px;
+                            // height: 32.36px;
+                            // margin-right: 7.53px;
+                        }
+                        .slide3znak__svg{
+                            width: 4.236vw;
+                            height: 2.677vw;
+                            margin-right: 0.139vw;
+                            // width: 61px;
+                            // height: 38.55px;
+                            // margin-right: 2px;
+                        }
+                        .slide3tochka__svg{
+                            height: 1.4vw;
+                            width: 5.003vw;
+                            // height: 20.16px;
+                            // width: 72.05px;
+                        }
+                    }
+                    .slide3Item__text{
+                        width: 20.481vw;
+                        height: 17.747vw;
+                        margin-bottom: 1.602vw;
+                        padding: 0 1.806vw 0 0;
+                        // padding: 0 26px 0 0;
+                        // width: 294.93px;
+                        // height: 255.56px;
+                        // margin-bottom: 23.07px;
+    
+                        font-family: Avenir Next Cyr;
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 2.78vw;
+                        line-height: 3.333vw;
+                        // font-size: 40px;
+                        // line-height: 48px;
+                        /* or 120% */
+                        letter-spacing: 0.44px;
+
+                        color: #3E464F;
+    
+                    }
+                    .slide3_svgFooter{
+                        display: flex;
+                        align-items: center;
+                        margin-left: 0.184vw;
+                        .svgFooter__numView{
+                            display: flex;
+                            align-items: center;
+                            
+                            .slide3glaz__svg{
+                                width: 1.25vw;
+                                height: 0.892vw;
+                                margin-right: 0.59vw;
+                                // width: 18px;
+                                // height: 12.85px;
+                                // margin-right: 8.5px;
+                            }
+                            span{
+                                text-align: center;
+                                width: 2.442vw;
+                                height: 0.961vw;
+                                margin-right: 3.01vw;
+                                // width: 35.16px;
+                                // height: 13.84px;
+                                // margin-right: 43.34px;
+
+
+                                /* Text_Info_1 */
+                                font-family: Avenir Next Cyr;
+                                font-style: normal;
+                                font-weight: bold;
+                                font-size: 0.833vw;
+                                line-height: 1.111vw;
+                                // font-size: 12px;
+                                // line-height: 16px;
+                                text-align: center;
+                                letter-spacing: 2.4px;
+
+                                color: #9FA3A7;
+                                
+                            }
+                        }
+                        .slide3heart__svg{
+                            width: 1.111vw;
+                            height: 0.972vw;
+                            // width: 16px;
+                            // height: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    
+    
+    }
+}

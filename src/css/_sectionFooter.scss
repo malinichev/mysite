@@ -1,0 +1,960 @@
+//footer
+
+footer{
+    width: 100%;
+    overflow: hidden;
+    .sectionFooter{
+
+        h2{
+            height: 10vw;
+            margin: 0 0 14.45vw 0;
+            // height: 32px;
+            // margin: 0 0 46.24px 0;
+
+            font-family: Avenir Next Cyr;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 7.5vw;
+            line-height: 10vw;
+            // font-size: 24px;
+            // line-height: 32px;
+            /* identical to box height, or 133% */
+            text-align: center;
+            letter-spacing: 0.985946px;
+            color: #000000;
+        }
+        .row_footer{
+            p{
+                width: 69,713vw;
+                height: 15vw;
+                // width: 223.08px;
+                // height: 48px;
+                // margin: 0;
+                margin: 0 7.5vw 25.772vw 22.788vw;
+                // margin: 0 24px 82.47px 72.92px;
+                /* Text_Lead_320 */
+                font-family: Avenir Next Cyr;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 5vw;
+                line-height: 7.5vw;
+                // font-size: 16px;
+                // line-height: 24px;
+                /* or 150% */
+                letter-spacing: 0.713846px;
+
+                color: #536477;
+            }
+            .form_footer{
+                fieldset{
+                    .form_control-group{
+                        padding: 0 0 0 0;
+                        // padding: 0 0 25.97px 0;
+                        label{
+                            display: none;
+                        }
+                        input{
+                            margin: 0 7.5vw calc(19.428vw - 11.875vw) 7.65vw;
+                            // margin: 0 7.5vw calc(62.17px - 11.875vw) 7.65vw;
+                            padding: 0 0 0 2.694vw;
+                            width: 84.85vw;
+                            // height: 62.17px;
+                            height: 11.875vw;
+                            // 62,17
+                            // margin: 0 24px 0 24.48px;
+                            // padding: 0 0 0 8.62px;
+                            // width: 271.52px;
+                            // height: 38px;
+                            text-align: left;
+                            border: 0;
+
+                            /*  */
+                            border-bottom: 1px solid #CCCCCC;
+                            /* Text_960 *//* Text_960 */
+                            font-family: Avenir Next Cyr;
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 5vw;
+                            line-height: 11.875vw;
+                            // font-size: 16px;
+                            // line-height: 38px;
+                            /* identical to box height, or 237% */
+                            letter-spacing: 0.443077px;
+
+                            color: #212121;
+
+                            
+                        }
+                       
+                        input::placeholder{
+                            
+                            /* Text_960 */
+                            // padding: 0;
+                            font-family: Avenir Next Cyr;
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 5vw;
+                            line-height: 11.875vw;
+                            // font-size: 16px;
+                            // line-height: 38px;
+                            /* identical to box height, or 237% */
+                            text-align: left;
+                            letter-spacing: 0.443077px;
+
+                            color: #9FA3A7;
+                        }
+                        .form_control__svgOk{
+                            display: none;
+                            position: absolute;
+                            top: calc(11.875vw - 3.844vw - (3.844vw - 1.719vw));
+                            right: -0.691vw;
+                            width: 5vw;
+                            height:  3.844vw;
+                            // top: calc(11.875vw - 3.844vw - (3.844vw - 1.719vw));
+                            // right: -0.691vw;
+                            // width: 16px;
+                            // height:  12.3px;
+                                // top: calc(38px - 12.3px - (12.3px - 5.5px));
+                                // right: -2.21px;
+                                // width: 16px;
+                                // height:  12.3px;
+                        }
+                        .form_control__svgZv{
+                            display: none;
+                            position: absolute;
+                            // top: calc(11.875vw - 3.844vw - (3.844vw) + 51.897vw - 8.116vw - 11.875vw);
+                            // top: calc(38px - 12.3px - (12.3px) + 166.07px - 25.97px - 38px);
+
+    
+                            right: 0.625vw;
+                            width: 3.341vw;
+                            height:  5.547vw;
+                            // right: 2px;
+                            // width: 10.69px;
+                            // height:  17.75px;
+                        }
+                    }
+                    .form_control-group:nth-child(3){
+                        
+                        textarea{
+                            
+                            padding: calc(52.344vw - 11.875vw - 11.875vw) 0 0 0;
+                            // padding: calc(167.5px - 11.875vw - 11.875vw) 0 0 0;
+                            margin: 0 7.5vw 0 7.65vw ;
+                            // margin: 0 24px 0 24.48px ;
+                            width: 84.85vw;
+                            
+                            height: calc(52.344vw - 11.875vw);
+                            // height: calc(167.5px - 11.875vw);
+                            border: 0;
+                        
+                            /*  */
+                            border-bottom: 1px solid #CCCCCC;
+                            font-family: Avenir Next Cyr;
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 5vw;
+                            line-height: 11.875vw;
+                            // font-size: 16px;
+                            // line-height: 38px;
+                            /* identical to box height, or 237% */
+                            letter-spacing: 0.443077px;
+
+                            color: #212121;
+                        }
+                        textarea::placeholder{
+                            // height: calc(167.5px - (62.17px - 11.875vw));
+                            text-indent: 0px;
+                            // text-overflow:ellipsis;
+                            // resize:  none;
+                            padding: 0 0 0 2.694vw;
+                            font-family: Avenir Next Cyr;
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 5vw;
+                            line-height: 11.875vw;
+                            // font-size: 16px;
+                            // line-height: 38px;
+                            /* identical to box height, or 237% */
+                            text-align: left;
+                            letter-spacing: 0.443077px;
+
+                            color: #9FA3A7;
+                        }
+                    }
+                    button{
+                        display: none;
+                    }
+                }
+            }
+        }
+        .emailArea_footer{
+            
+            margin: calc(-1.875vw + 29.413vw) 20.816vw 0 23.213vw;
+            // margin: 0 66.61px 0 74.28px;
+            div{
+                width: 55.972vw;    
+                height: 21.097vw;
+                margin: 0 0 11.091vw 0;
+                // width: 179.11px;    
+                // height: 67.51px;
+                // margin: 0 0 35.49px 0;
+                .emailArea_footer__title{
+                    margin: 0;
+                    /* Text_960 */
+                    font-family: Avenir Next Cyr;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 5vw;
+                    line-height: 11.875vw;
+                    // font-size: 16px;
+                    // line-height: 38px;
+                    /* or 237% */
+                    letter-spacing: 0.443077px;
+
+                    color: #D8D8D8;
+                }
+                p{
+                    margin: 0px 0 0 0;
+                    /* Text_960 */
+                    font-family: Avenir Next Cyr;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 5vw;
+                    line-height: 11.875vw;
+                    // font-size: 16px;
+                    // line-height: 38px;
+                    /* or 237% */
+                    letter-spacing: 0.443077px;
+
+                    color: #212121;;
+                }
+            }
+            
+            .social{
+                display: flex;
+                margin: 0 0 25.313vw 0;
+                // margin: 0 0 81px 0;
+                height: auto;
+                svg{
+                    width: 12.5vw;
+                    height: 12.5vw;
+                    margin-right: 7.491vw;
+                    // width: 40px;
+                    // height: 40px;
+                    // margin-right: 23.97px;
+                }
+                
+            }
+        }
+        .copyRight_footer{
+            p{
+                margin: 0 0 8.628vw 0;
+                // margin: 0 0 27.61px 0;
+                text-align: center;
+
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 2.5vw;
+                line-height: 3.125vw;
+                // font-size: 8px;
+                // line-height: 10px;
+                /* identical to box height */
+
+                color: #71828A;
+
+                
+
+            }
+            .policy{
+                
+                /* Text_Info_960 */
+                font-family: Avenir Next Cyr;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 3.75vw;
+                line-height: 5vw;
+                // font-size: 12px;
+                // line-height: 16px;
+                /* identical to box height, or 133% */
+                // display: flex;
+                // align-items: flex-end;
+                text-align: center;
+                letter-spacing: 0.443077px;
+
+                color: #00B8F0;
+
+            }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    #id1:invalid + #svgOk {
+        display: none;
+    } 
+    footer{
+        padding:  21.745vw 7.421vw 0 9.004vw;
+        // padding:  167px 56.99px 0 69.15px;
+        width: 100%;
+        overflow: hidden;
+        .sectionFooter{
+            position: relative;
+         
+    
+            h2{
+                height: 6.25vw;
+                margin: 0 0 3.938vw 0;
+                // height: 48px;
+                // margin: 0 0 30.24px 0;
+                text-align: left;
+                /* H0_960 */
+                font-family: Avenir Next Cyr;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 4.167vw;
+                line-height: 6.25vw;
+                // font-size: 32px;
+                // line-height: 48px;
+                /* identical to box height, or 150% */
+                letter-spacing: 0.985946px;
+
+                color: #000000;
+            }
+            .row_footer{
+                display: flex;
+                p{
+                    width: 29.418vw;
+                    height: 15.625vw;
+                    margin: 0 0 1.531vw 0;
+                    // width: 225.93px;
+                    // height: 120px;
+                    // margin: 0 0 11.76px 0;
+                    /* Text_Lead_320 */
+                    /* Text_Lead_960 */
+                    font-family: Avenir Next Cyr;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 3.125vw;
+                    line-height: 5.208vw;
+                    // font-size: 24px;
+                    // line-height: 40px;
+                    /* or 167% */
+                    letter-spacing: 0.713846px;
+
+                    color: #536477;
+                }
+                .form_footer{
+                    position: absolute;
+                    right: 0;
+                    top: calc(-0.114vw / 2);
+                    width: calc(12.5vw + 2.113vw + 37.121vw);
+                    margin-left: 2.214vw;
+                    // top: calc(-8.75px / 2);
+                    // width: calc(96px + 16.23px + 285.09px);
+                    // margin-left: 17px;
+                    fieldset{
+                        width: 100%;
+                        .form_control-group{
+                            position: relative;
+                            width: 100%;
+
+                            // width: calc(47px + 15.01px + 286px);
+                            margin: 0 0 calc(8.03vw - 4vw) auto;
+                            padding: 0 0 0 0;
+                            // padding: 0 0 calc(8.03vw - 4vw) 0;
+                            // padding: 0 0 calc(61.67px - 4vw) 0;
+                            // padding: 0 0 3.382vw 0;
+                            display: flex;
+                            align-items: flex-end;
+                            justify-content: flex-end;
+                            label{
+                                display: block;
+                                width: 6.12vw;
+                                // width: 47px;
+                                text-align: right;
+                                margin: 0 0 calc((2.083vw - 4.948vw) / 2) 0;
+                                padding: 0;
+                                // margin: 0 0 calc(-3.646vw / 2) 0;
+                                // margin: 0 0 calc((-38px + 16px - 6px) / 2) 0;
+
+                                /* Text_960 */
+                                font-family: Avenir Next Cyr;
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 2.083vw;
+                                line-height: 4.948vw;
+                                // font-size: 16px;
+                                // line-height: 38px;
+                                /* identical to box height, or 237% */
+                                
+                                letter-spacing: 0.443077px;
+
+                                color: #9FA3A7;
+                            }
+                            input{
+                                margin: 0;
+                                margin: 0 0 0 1.954vw;
+                                padding: 0 0 0 1.122vw;
+                                // margin: 0 0 0 15.01px;
+                                // padding: 0 0 0 8.62px;
+                                width: 37.24vw;
+                                height: 4vw;
+                                // width: 286px;
+                                // height: 38px;
+                                text-align: left;
+                                border: 0;
+    
+                                /*  */
+                                border-bottom: 1px solid #CCCCCC;
+                                /* Text_960 *//* Text_960 */
+                                font-family: Avenir Next Cyr;
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 2.083vw;
+                                line-height: 4.948vw;
+                                // font-size: 16px;
+                                // line-height: 38px;
+                                /* identical to box height, or 237% */
+                                letter-spacing: 0.443077px;
+    
+                                color: #212121;
+    
+                                
+                            }
+                            input::placeholder{
+                                display: none;
+                                /* Text_960 */
+                                // padding: 0;
+                                font-family: Avenir Next Cyr;
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 2.083vw;
+                                line-height: 4.948vw;
+                                // font-size: 16px;
+                                // line-height: 38px;
+                                /* identical to box height, or 237% */
+                                text-align: center;
+                                letter-spacing: 0.443077px;
+    
+                                color: transparent;
+                            }
+                            .form_control__svgOk{
+                                display: block;
+                                position: absolute;
+                                top: calc(4vw - 1.953vw - 0.716vw);
+                                // top: calc(4vw - 15px - 5.5px);
+                                right: -2.21px;
+                                // right: -0.288vw;
+                                // top: calc(38px - 12.3px - (12.3px - 5.5px));
+                                // right: -2.21px;
+                                width: 2.083vw;
+                                height:  1.602vw;
+                                // width: 16px;
+                                // height:  12.3px;
+                            }
+                            .form_control__svgZv{
+                                display: block;
+                                position: absolute;
+                                bottom: 0.487vw;
+                                // bottom: 3.74px;
+                            
+
+        
+                                
+                                right: 0.26vw;
+                                width: 1.392vw;
+                                height:  2.311vw;
+                                // right: 2px;
+                                // width: 10.69px;
+                                // height:  17.75px;
+                            }
+                        }
+                        
+                        .form_control-group:nth-child(3){
+                            display: flex;
+                            justify-content: flex-end;
+                            position: relative;
+                            padding: 0 0 0 0;
+                            margin: 0;
+                            // padding: calc(21.624vw - 3.304vw - 4.948vw) 0 0 0;
+                            // padding: calc(166.07px - 25.97px - 38px) 0 0 0;
+                            // padding: 130.01px 0 88.04px 0;
+                            // height: 38px;
+                            width: 100%;
+                            label{
+                                width: 12.5vw;
+                                // 
+                                // width: 96px;
+                            }
+                            textarea{
+                                // width: 100%;
+                                padding: calc(21.624vw - (8.03vw - 4vw)) 0 0 1.122vw;
+                                margin: 0 0 0 2.113vw;
+                                // width: 285.09px;
+                                width: 37.24vw;
+                                height: 4vw;
+                                overflow: hidden;
+                                // height: calc(21.624vw - calc(8.03vw - 4vw));
+                                // background: gray;
+                                border: 0;
+                                border-bottom: 1px solid #CCCCCC;
+                                outline: none;
+                                // overflow: auto;
+
+                                font-family: Avenir Next Cyr;
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 2.083vw;
+                                line-height: 4.948vw;
+                                // font-size: 16px;
+                                // line-height: 38px;
+                                /* identical to box height, or 237% */
+                                letter-spacing: 0.443077px;
+    
+                                color: #212121;
+                            }
+                            textarea::placeholder{
+                                color: transparent;
+                            }
+                            input{
+                                // width: 36.271vw;
+                                // width: 37.5vw;
+                            }
+    
+                        }
+                        button{
+                            display: none;
+                        }
+                    }
+                }
+            }
+            .emailArea_footer{
+                
+                margin: 0 0 18.09vw 0;
+                div{
+                    width: 23.322vw;    
+                    height: 8.79vw;
+                    margin: 0 0 4.621vw 0;
+                
+                //     width: 179.11px;    
+                //     height: 67.51px;
+                //     margin: 0 0 35.49px 0;
+                    .emailArea_footer__title{
+                        margin: 0;
+                        /* Text_960 */
+                        font-family: Avenir Next Cyr;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 2.083vw;
+                        line-height: 4.948vw;
+                        // font-size: 16px;
+                        // line-height: 38px;
+                        /* or 237% */
+                        letter-spacing: 0.443077px;
+    
+                        color: #D8D8D8;
+                    }
+                    p{
+                        margin: 0px 0 0 0;
+                        /* Text_960 */
+                        font-family: Avenir Next Cyr;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 2.083vw;
+                        line-height: 4.948vw;
+                        // font-size: 16px;
+                        // line-height: 38px;
+                        /* or 237% */
+                        letter-spacing: 0.443077px;
+    
+                        color: #212121;;
+                    }
+                }
+                
+                .social{
+                    display: flex;
+                    margin: 0;
+                    // margin: 0 ;
+                    height: auto;
+                    width: initial;
+                    svg{
+                        width: 5.208vw;
+                        height: 5.208vw;
+                        margin-right: 3.121vw;
+                        // width: 40px;
+                        // height: 40px;
+                        // margin-right: 23.97px;
+                    }
+                    
+                }
+            }
+            .copyRight_footer{
+                display: flex;
+                flex-flow: wrap;
+                width: 100%;
+                justify-content: space-between;
+                align-items: flex-end;
+                padding: 0 0 7.715vw 0;
+                // padding: 0 0 59.25px 0;
+                p{
+                    margin: 0 0 0 0;
+                    text-align: center;
+                    height: 1.302vw;
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 1.042vw;
+                    line-height: 1.302vw;
+                    // font-size: 8px;
+                    // line-height: 10px;
+                    /* identical to box height */
+
+                    color: #71828A;
+
+    
+                    
+    
+                }
+                p:nth-child(2){
+                    
+                    /* Text_Info_960 */
+                    font-family: Avenir Next Cyr;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 2.083vw;
+                    line-height: 2.083vw;
+                    // font-size: 12px;
+                    // line-height: 16px;
+                    /* identical to box height, or 133% */
+                    // display: flex;
+                    // align-items: flex-end;
+                    text-align: center;
+                    letter-spacing: 0.443077px;
+    
+                    color: #00B8F0;
+    
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1440px) { 
+    footer{
+        padding:  0 18.299vw 0 18.147vw;
+        // padding:  167px 263.51px 0 261.31px;
+        width: 100%;
+        overflow: hidden;
+        .sectionFooter{
+            position: relative;
+            // margin: 167px 0 0 56.99px;
+    
+            h2{
+                height: 3.333vw;
+                margin: 0 0 1.544vw 0;
+                // height: 48px;
+                // margin: 0 0 22.24px 0;
+                text-align: left;
+                /* H0_960 */
+                /* H0 */
+                font-family: Avenir Next Cyr;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 2.778vw;
+                line-height: 3.889vw;
+                // font-size: 40px;
+                // line-height: 56px;
+                /* identical to box height, or 140% */
+                letter-spacing: 0.985946px;
+
+                color: #000000;
+            }
+            .row_footer{
+                display: flex;
+                p{
+                    width: 19.622vw;
+                    height: 10vw;
+                    margin: 0 0 1.475vw 0;
+                    // width: 282.55px;
+                    // height: 144px;
+                    // margin: 0 0 21.24px 0;
+                    /* Text Lead */
+                    font-family: Avenir Next Cyr;
+                    font-style: normal;
+                    font-weight: normal;
+                    font-size: 2.222vw;
+                    line-height: 3.333vw;
+                    // font-size: 32px;
+                    // line-height: 48px;
+                    /* or 150% */
+                    letter-spacing: 0.713846px;
+
+                    color: #536477;
+                }
+                .form_footer{
+                    position: absolute;
+                    right: 0;
+                    top: 0;
+                    width: 27.724vw;
+                    // width: 399.22px;
+                    // width: calc(96px + 15.23px + 285.09px);
+                    margin-left: 1.181vw;
+                    fieldset{
+                        width: 100%;
+                        .form_control-group{
+                            position: relative;
+                            // width: 24.167vw;
+                            // width: calc(47px + 15.01px + 286px);
+                            margin: 0 0 calc(4.404vw - 2vw - 0.069vw) auto;
+                            padding: 0 0 0 0;
+                            // padding: 0 0 calc(1.007vw + 3.31vw);
+                            // padding: 0 0 calc(14.5px + 47.67px);
+                            
+                            display: flex;
+                            align-items: flex-end;
+                            label{
+                                display: block;
+                                width: 3.264vw;
+                                text-align: right;
+                                margin: 0 0 calc(-1.718vw / 2) 0;
+                                // width: 47px;
+                                // text-align: right;
+                                // margin: 0 0 calc((-38px + 16px - 6px) / 2) 0;
+
+                                /* Text_960 */
+                                font-family: Avenir Next Cyr;
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 1.111vw;
+                                line-height: 2.639vw;
+                                // font-size: 16px;
+                                // line-height: 38px;
+                                /* identical to box height, or 237% */
+                                
+                                letter-spacing: 0.443077px;
+
+                                color: #9FA3A7;
+                            }
+                            input{
+                                margin: 0;
+                                margin: 0 0 0 1.042vw;
+                                padding: 0 0 0 0.599vw;
+                                // margin: 0 0 0 15.01px;
+                                // padding: 0 0 0 8.62px;
+                                width: 19.861vw;
+                                height: 2vw;
+                                // width: 286px;
+                                // height: 38px;
+                                text-align: left;
+                                border: 0;
+    
+                                /*  */
+                                border-bottom: 0.069vw solid #CCCCCC;
+                                // border-bottom: 1px solid #CCCCCC;
+                                /* Text_960 *//* Text_960 */
+                                font-family: Avenir Next Cyr;
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 1.111vw;
+                                line-height: 2.639vw;
+                                // font-size: 16px;
+                                // line-height: 38px;
+                                /* identical to box height, or 237% */
+                                letter-spacing: 0.443077px;
+    
+                                color: #212121;
+    
+                                
+                            }
+                            input::placeholder{
+                               
+                                font-family: Avenir Next Cyr;
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 1.111vw;
+                                // margin: -7px 0 0 0;
+                                line-height: 1.667vw;
+                                // font-size: 16px;
+                                // // margin: -7px 0 0 0;
+                                // line-height: 24px;
+                                /* identical to box height, or 237% */
+                                text-align: center;
+                                letter-spacing: 0.443077px;
+    
+                                color: transparent;
+                            }
+                            .form_control__svgOk{
+                                display: block;
+                                position: absolute;
+                                top: calc(2vw - 1.007vw - 0.382vw);
+                                // top: calc(2vw - 14.5px - 5.5px);
+                                right: -0.153vw;
+                                width: 1.111vw;
+                                height:  0.854vw;
+                                // top: calc(38px - 12.3px - (12.3px - 5.5px));
+                                // right: -2.21px;
+                                // width: 16px;
+                                // height:  12.3px;
+                            }
+                            .form_control__svgZv{
+                                display: block;
+                                position: absolute;
+                                
+                                bottom: 0.26vw;
+                                // bottom: 3.74px;
+
+        
+                                right: 0.139vw;
+                                width: 0.742vw;
+                                height:  1.233vw;
+                                // right: 2px;
+                                // width: 10.69px;
+                                // height:  17.75px;
+                            }
+                        }
+                        .form_control-group:nth-child(3){
+                            padding: 0 0 0 0;
+                            margin: 0;
+                            // padding: calc(166.07px - 25.97px - 38px) 0 0 0;
+                            
+                            
+                            width: 100%;
+                            label{
+                                width: 6.667vw;
+                                // width: 96px;
+                            }
+                            textarea{
+                                // width: 100%;
+                                margin: 0 0 0 1.042vw;
+                                padding: calc(11.533vw - (4.404vw - 2vw - 0.069vw)) 0 0 0.599vw;
+                                // padding: calc(166.07px - (4.404vw - 2vw - 0.069vw)) 0 0 0.599vw;
+                                // width: 285.09px;
+                                width: 19.861vw;
+                                height: 2vw;
+                                overflow: hidden;
+                                // height: calc(11.533vw - calc(4.317vw - 2vw));
+                                // height: calc(166.07px - calc(1.007vw + 3.31vw));
+                                // background: gray;
+                                border: 0;
+                                border-bottom: 0.069vw solid #CCCCCC;
+                                // border-bottom: 1px solid #CCCCCC;
+                                /* Text_960 *//* Text_960 */
+                                font-family: Avenir Next Cyr;
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 1.111vw;
+                                line-height: 2.639vw;
+                                // font-size: 16px;
+                                // line-height: 38px;
+                                /* identical to box height, or 237% */
+                                letter-spacing: 0.443077px;
+    
+                                color: #212121;
+                            }
+                            input{
+                                width: 19.798vw;
+                                // width: 285.09px;
+                            }
+    
+                        }
+                        button{
+                            display: none;
+                        }
+                    }
+                }
+            }
+            .emailArea_footer{
+                position: relative;
+                margin: 0 0 10.52vw 0;
+                width: 50%;
+                // margin: 0 0 151.49px 0;
+                div{
+                    width: 15.556vw;    
+                    height: 4.688vw;
+                    margin: 0 0 1.736vw 0;
+                    // width: 224px;    
+                    // height: 67.51px;
+                    // margin: 0 0 25px 0;
+                    .emailArea_footer__title{
+                        margin: 0;
+                        /* Text_960 */
+                        font-family: Avenir Next Cyr;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 1.667vw;
+                        line-height: 2.917vw;
+                        // font-size: 24px;
+                        // line-height: 42px;
+                        /* or 175% */
+                        letter-spacing: 0.443077px;
+    
+    
+                    }
+                    p{
+                        margin: 0px 0 0 0;
+                        /* Text_960 */
+                        font-family: Avenir Next Cyr;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 1.667vw;
+                        line-height: 2.917vw;
+                        // font-size: 24px;
+                        // line-height: 42px;
+                        /* or 175% */
+                        letter-spacing: 0.443077px;
+    
+                    }
+                }
+                
+                .social{
+                    margin: 0 0 0 0;
+                    svg{
+                        
+                        margin-right: 2.778vw;
+                        width: 2.778vw;
+                        height: 2.778vw;
+                        // margin-right: 40px;
+                    }
+                    
+                }
+            }
+            .copyRight_footer{
+                // bottom: calc(-1.667vw - 10.52vw);
+                // position: absolute;
+                padding: 0 0 13.091vw 0;
+                align-items: center;
+                // padding: 0 0 13.521vw 0;
+                // padding: 0 0 194.7px 0;
+                p:nth-child(1){
+                    height: 0.694vw;
+                    font-family: Montserrat;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 0.556vw;
+                    line-height: .694vw;
+                    /* identical to box height */
+
+                    color: #71828A;
+                }
+                p:nth-child(2){
+                    font-family: Avenir Next;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 1.111vw;
+                    line-height: 1.667vw;
+                    // font-size: 16px;
+                    // line-height: 24px;
+                    /* identical to box height, or 150% */
+                    display: flex;
+                    align-items: flex-end;
+                    letter-spacing: 0.443077px;
+
+                    color: #00B8F0;
+                }
+
+            }
+        }
+    }
+}

@@ -1,0 +1,229 @@
+//безопасность
+
+    .sectionSecurity{
+        width: 100%;
+        padding: 0 7.5vw 21.716vw 7.5vw;
+        // padding: 0 24px 69.49px 24px;
+        .sectionSecurity__title {
+            height: 10vw;
+            width: 100%;
+            text-align: center;
+            /* H0_320 */
+            font-family: Avenir Next Cyr;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 7.5vw;
+            line-height: 10vw;
+            /* identical to box height, or 133% */
+            text-align: center;
+            letter-spacing: 0.985946px;
+    
+            color: #000000;
+            margin: 0 0 12.5vw 0;
+        }
+        .row{
+            display: flex;
+            flex-flow: column;
+            justify-content: center;
+            width: 100%;
+            margin: 0;
+            
+            .row__securSvg{
+                display: block;
+                margin: 0 auto;
+                width: 54.728vw;
+                height: 63.159vw;
+                // width: 175.13px;
+                // height: 202.11px;
+                order: 2;
+    
+            }
+            .row__textSecur{
+                
+                order: 1;
+                width: 85vw;
+                height: 45vw;
+                // width: 272px;
+                // height: 144px;
+                /* Text_Lead_320 */
+                font-family: Avenir Next Cyr;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 5vw;
+                line-height: 7.5vw;
+                // font-size: 16px;
+                // line-height: 24px;
+                /* or 150% */
+                letter-spacing: 0.713846px;
+    
+                color: #536477;
+    
+            }
+        }
+    }
+@media (min-width: 768px) { 
+    .sectionSecurity{
+        width: 100%;
+        padding: 0 9.676vw 0 9.047vw;
+        // padding: 0 74.31px 0 69.48px;
+        .sectionSecurity__title {
+            text-align: left;
+            height: 6.25vw;
+            width: 100%;
+            margin: 0 0 4.957vw 0;
+            // height: 48px;
+            // width: 100%;
+            // margin: 0 0 38.07px 0;
+
+
+            /* H0_960 */
+            font-family: Avenir Next Cyr;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 4.167vw;
+            line-height: 6.25vw;
+            // font-size: 32px;
+            // line-height: 48px;
+            /* identical to box height, or 150% */
+            letter-spacing: 0.985946px;
+
+            color: #000000;
+            
+        }
+        .row{
+            display: flex;
+            flex-flow: wrap;
+            justify-content: flex-end;
+            // align-items: center;
+            flex-flow: row;
+            width: 100%;
+            margin: 0;
+            
+            .row__securSvg{
+                // display: static;
+                margin: 0.734vw 6.457vw 0  0 ;
+                width: 22.409vw;
+                height: 25.861vw;
+                // margin: calc(51.39px - 38.07px) 49.59px 0  0 ;
+                // width: 172.1px;
+                // height: 198.61px;
+                order: 1;
+    
+            }
+            .row__textSecur{
+                
+                // order: 1;
+                margin: 0;
+                width: 52.083vw;
+                height: auto;
+                
+               /* Text_Lead_960 */
+                font-family: Avenir Next Cyr;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 3.125vw;
+                line-height: 5.208vw;
+                // font-size: 24px;
+                // line-height: 40px;
+                /* or 167% */
+                letter-spacing: 0.713846px;
+
+                color: #536477;
+    
+            }
+        }
+    }
+}
+@media (min-width: 1440px) { 
+    .sectionSecurity{
+        width: 100%;
+        padding: 0 0 17.425vw 20.311vw;
+        // padding: 0 0 250.92px 260.48px;
+        position: relative;
+        .sectionSecurityGraph{
+            position: absolute;
+            top: -12.396vw;
+            left: -2.222px;
+            // top: -178.5px;
+            // left: -32px;
+            display: block;
+            width: 24.126vw;
+            height: 28.958vw;
+            // width: 347.41px;
+            // height: 417px;
+        }
+        .sectionSecurity__title {
+            text-align: left;
+            height: 3.889vw;
+            width: 100%;
+            margin: 0 0 4.894vw 0;
+            // height: 56px;
+            // width: 100%;
+            // margin: 0 0 70.47px 0;
+
+
+            /* H0_960 */
+            font-family: Avenir Next Cyr;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 2.222vw;
+            line-height: 3.333vw;
+            // font-size: 32px;
+            // line-height: 48px;
+            /* identical to box height, or 150% */
+            letter-spacing: 0.985946px;
+
+            color: #000000;
+            
+        }
+        .row{
+            display: flex;
+            flex-flow: wrap;
+            justify-content: flex-start;
+            -webkit-box-pack: start; /* justify-content */
+            -webkit-box-align: start; /* align-items */
+            // align-items: center;
+            width: 100%;
+            margin: 0;
+            
+            .row__securSvg{
+                // display: static;
+                margin: 0 2.431vw 0  0 ;
+                // margin: 0.925vw 2.431vw 0  0 ;
+                width: 17.535vw;
+                height: 20.156vw;
+                // margin: calc(51.39px - 38.07px) 35px 0  0 ;
+                // width: 251.5px;
+                // height: 290.24px;
+                order: 1;
+    
+            }
+            .row__textSecur{
+                
+                // order: 1;
+                width: 45.972vw;
+                height: 20vw;
+                // width: 662px;
+                // height: 288px;
+                margin: 0;
+                
+              /* Text Lead */
+                // font-family: sans-serif;
+                // font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                font-family: Avenir Next Cyr;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 2.222vw;
+                line-height: 3.333vw;
+                // font-size: 32px;
+                // line-height: 48px;
+                /* or 150% */
+                letter-spacing: 0.713846px;
+
+                color: #536477;
+
+    
+            }
+        }
+    }
+}

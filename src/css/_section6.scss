@@ -1,0 +1,926 @@
+//тарифы
+.section6{
+    h2{
+        margin: 0;
+        /* H0_320 */
+        font-family: Avenir Next Cyr;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 7.5vw;
+        line-height: 7.5vw;
+        // font-size: 24px;
+        // line-height: 32px;
+        /* identical to box height, or 133% */
+        text-align: center;
+        letter-spacing: 0.985946px;
+
+        color: #000000;
+    }
+    .cover4Slider{
+        .slide4{
+            margin: 0;
+            .slick-list {
+                padding: 16.253vw 0 16.253vw 44.375vw;
+                margin: 0 0 0 calc(-22.5vw);
+                // padding: 52.01px 0 52.01px calc(70px + 72px);
+                // margin: 0 0 0 calc(-72px);
+                .slick-track > .slick-slide {
+                    background:transparent;
+                    margin: 0 0 0 calc(22.5vw);
+                    // margin: 0 0 0 calc(72px);
+                }
+            }
+            .slick-dots{
+                bottom: initial;
+                // top: calc(-52.43px - 8px);
+                top: 5vw;
+                // top: 16px;
+                li{
+                    height: 2.5vw;
+                    width: 2.5vw;
+                    margin: 0 1.25vw;
+                    // height: 8px;
+                    // width: 8px;
+                    // margin: 0 4px;
+                    .slider4dots{
+                        display: block;
+                        height: 2.5vw;
+                        width: 2.5vw;
+                        // width: 8px;
+                        // height: 8px;
+                        border-radius: 50%;
+                        border: 0;
+                        background: #E8E9EA;
+                        transition: 0.5s;
+                        &:hover{
+                            /* Gradient_Light */
+                            background: linear-gradient(180deg, #00B8F0 0%, #00B8F0 0.01%, #B2EEFC 73.96%);
+                            /* Свечение объектов */
+                            box-shadow: 0px -3px 6px rgba(56, 152, 254, 0.4);
+                        }
+                    }
+                }
+                li.slick-active{
+                    .slider4dots{
+                    /* Gradient_Light */
+                    transition: 0.5s;
+                    background: linear-gradient(180deg, #00B8F0 0%, #00B8F0 0.01%, #B2EEFC 73.96%);
+                    /* Свечение объектов */
+                    box-shadow: 0px -3px 6px rgba(56, 152, 254, 0.4);
+                    }
+    
+                }
+                
+            }
+            .slide4Item{
+                max-width: 55.625vw;
+                height: 93.438vw;
+                // max-width: 178px;
+                // height: 299px;
+                background: #FFFFFF;
+                padding: 6.703vw 11.816vw 7.813vw 11.309vw;
+                // padding: 21.45px 37.81px 25px 36.19px;
+                h4{
+                    width: 32.022vw;
+                    height: 4.181vw;
+                    margin: 0 0 9.966vw 0;
+                    // width: 102.47px;
+                    // height: 13.38px;
+                    // margin: 0 0 31.89px 0;
+
+                    font-family: Avenir Next Cyr;
+                    font-style: normal;
+                    font-weight: bold;
+                    font-size: 3.75vw;
+                    line-height: 5vw;
+                    // font-size: 12px;
+                    // line-height: 16px;
+                    text-align: center;
+                    letter-spacing: 2.4px;
+
+                    color: #212121;
+
+                }
+                .slide4Item_body{
+                    display: flex;
+                    flex-flow: column;
+                    // justify-content: center;
+
+
+                    .slide4Item_body_text{
+                        .slide4Item_body_text_cost{
+                            display: flex;
+                            width: 100%;
+                            height: calc(21.134vw);
+                            // height: 100%;
+                            margin: 0 0 4.716vw 0;
+                            justify-content: center;
+                            position: relative;
+                            svg{
+                                position: absolute;
+                                top: 0;
+                                width: 25.728vw;
+                                height: 21.138vw;
+                            }
+                            .slide4Item_body_text_cost__svg1{
+                                
+                                right: calc(-4.125vw + 3.528vw);
+                                // right: calc(-13.2px + 11.29px);
+                                
+                                // z-index: 0;
+                            }
+                            .slide4Item_body_text_cost__svg2{
+                               
+                                
+                                right: calc(5.184vw - 4.125vw + 3.528vw);
+                                // right: calc(5.184vw - 13.2px + 11.29px);
+                                
+                            }
+                            .slide4Item_body_text_cost_container{
+                                height: 100%;
+                                display: flex;
+                                // align-items: baseline;
+
+                                flex-flow: wrap;
+                                z-index: 1;
+                                justify-content: center;
+                                .slide4Item_body_text_cost_container__num{
+                                    margin: 0;
+                                    font-family: Arvo;
+                                    font-style: normal;
+                                    font-weight: bold;
+                                    font-size: 18.75vw;
+                                    line-height: 23.125vw;
+                                    // font-size: 60px;
+                                    // line-height: 74px;
+                                 
+                                    text-align: center;
+
+                                    color: #212121;
+                                    
+                                    width: 17.281vw;
+                                    height: 22.022vw;
+                                }
+                                .slide4Item_body_text_cost_container__rub{
+                                    font-family: Avenir;
+                                    // font-family: Avenir;
+                                    font-style: normal;
+                                    font-weight: 800;
+                                    font-size: 9.375vw;
+                                    line-height: 15vw;
+                                    // font-size: 30px;
+                                    // line-height: 48px;
+                                    /* or 160% */
+                                    text-align: center;
+
+                                    color: #212121;
+
+                                    
+                                    
+                                    // margin: 17.34px 0 0 calc(9.76px - 16.6px);
+                                    margin: 5.419vw 0 0 calc(3.05vw - 5.188vw);
+
+                                
+
+                                    width: 5.188vw;
+                                    height: 13.381vw;
+                                    // width: 16.6px;
+                                    // height: 42.82px;
+                                }
+                                .slide4Item_body_text_cost_container__num2{
+                                    // margin: -12px 0 0 0;
+                                    font-family: Arvo;
+                                    font-style: normal;
+                                    font-weight: bold;
+                                    font-size: 15.313vw;
+                                    line-height: 1;
+                                    text-align: center;
+
+                                    color: #212121;
+
+                                    width: 100%;
+                                    margin: 0;
+                                  
+                                }
+                                .slide4Item_body_text_cost_container__rub2{
+                                    // margin: -26px 0 0 0;
+                                    font-family: Avenir;
+                                    // font-family: Avenir;
+                                    font-style: normal;
+                                    font-weight: 800;
+                                    font-size: 4.688vw;
+                                    line-height: 1;
+                                    /* or 160% */
+                                    text-align: center;
+
+                                    color: #212121;
+                                    width: 100%;
+                                    // height: 42.82px;
+                                    margin: -4.688vw 0 0 0;
+                                }
+                                
+                            }
+                            
+                        }
+                        .slide4Item_body_text__main{
+                            width: 32.188vw;
+                            height: 23.75vw;
+                            padding: 0 0 0 2.813vw;
+                            // width: 103px;
+                            // height: 76px;
+                            // padding: 0 0 0 calc(45.19px - 36.19px);
+
+                            /* Text_Info_960 */
+                            font-family: Avenir Next Cyr;
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 3.75vw;
+                            line-height: 5vw;
+                            // font-size: 12px;
+                            // line-height: 16px;
+                            /* or 133% */
+                            letter-spacing: 0.443077px;
+
+                            color: #3E464F;
+                        }
+                    }
+                    .slide4Item_body_vectorSvg{
+                        position: absolute;
+                        // top: 0;
+                        height: 21.138vw;
+                        width: 30.913vw;
+                        // height: 67.64px;
+                        // width: calc(82.33 + 16.59px);
+                        
+                    }
+                    .slide4Item_body__btn{
+                        width: 32.5vw;
+                        height: 10vw;
+                        // width: 104px;
+                        // height: 32px;
+                        border: 0;
+
+                        background: linear-gradient(180deg, #1792C7 0%, #00B8F0 100%);
+                        box-shadow: 0px 6px 18px rgba(53, 152, 254, 0.38185);
+                        border-radius: 3px;
+
+                        font-family: Avenir Next Cyr;
+                        font-style: normal;
+                        font-weight: 500;
+                        font-size: 5vw;
+                        line-height: 6.875vw;
+                        // font-size: 16px;
+                        // line-height: 22px;
+                        text-align: center;
+                        letter-spacing: 0.369231px;
+                        
+
+                        color: #FFFFFF;
+                        transition: .5s;
+                        &:hover{
+                            box-shadow: 0px 6px 18px rgba(53, 152, 254, 0.88185);
+                        }
+                    }
+
+                }
+
+            }
+        }
+    }
+}
+@media (min-width: 768px) { 
+    .section6{
+        h2{
+            text-align: left;
+            margin: 0 0 0 8.423vw;
+            // margin: 0 0 0 64.69px;
+            /* H0_320 */
+            /* H0_960 */
+            font-family: Avenir Next Cyr;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 4.167vw;
+            line-height: 6.25vw;
+            // font-size: 32px;
+            // line-height: 48px;
+            /* identical to box height, or 150% */
+            letter-spacing: 0.985946px;
+
+            color: #000000;
+        }
+        .cover4Slider{
+            .slide4{
+                margin: 0;
+                .slick-list {
+                    padding: 8.073vw 0 24.609vw 15.365vw;
+                    margin: 0 0 0 calc(-5.99vw);
+                    // padding: 62px 0 62px 15.365vw;
+                    // margin: 0 0 0 calc(-5.99vw);
+                    .slick-track > .slick-slide {
+                        background:transparent;
+                        margin: 0 0 0 calc(5.99vw);
+                    }
+                }
+                
+                .slide4Item{
+                    max-width: 23.177vw;
+                    height: 38.932vw;
+                    // max-width: 178px;
+                    // height: 299px;
+                    background: #FFFFFF;
+                    padding: 2.793vw 4.427vw 3.255vw 5.208vw;
+                    // padding: 2.793vw 4.923vw 3.255vw 4.712vw;
+                    // padding: 21.45px 37.81px 25px 36.19px;
+                    h4{
+                        width: 13.342vw;
+                        height: 1.742vw;
+                        margin: 0 0 4.152vw 0;
+                        // width: 102.47px;
+                        // height: 13.38px;
+                        // margin: 0 0 31.89px 0;
+    
+                        font-family: Avenir Next Cyr;
+                        font-style: normal;
+                        font-weight: bold;
+                        font-size: 1.563vw;
+                        line-height: 2.083vw;
+                        // font-size: 12px;
+                        // line-height: 16px;
+                        text-align: center;
+                        letter-spacing: 2.4px;
+    
+                        color: #212121;
+    
+                    }
+                    .slide4Item_body{
+                        display: flex;
+                        flex-flow: column;
+                        // justify-content: center;
+                        justify-content: space-between;
+                        height: calc(100% - 3.516vw);
+                        // height: calc(100% - 27px);
+                     
+    
+                        .slide4Item_body_text{
+                            display: flex;
+                            flex-flow: column;
+                            .slide4Item_body_text_cost{
+                                display: flex;
+                                width: 100%;
+                                // height: calc(67.63px + 15.15px);
+                                // 32.52 + 67.63px height max
+                                margin: 0 0 0 0;
+                                height: 13.04vw;  //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+                                justify-content: center;
+                                position: relative;
+                                svg{
+                                    position: absolute;
+                                    top: 0;
+                                    width: 10.72vw;
+                                    height: 8.807vw;
+                                     // width: 82.33px;
+                                    // height: 67.63px;
+                                }
+                                .slide4Item_body_text_cost__svg1{
+                                    right: -0.651vw;
+                                    // z-index: 0;
+                                }
+                                .slide4Item_body_text_cost__svg2{      
+                                    right: calc(2.16vw - 0.651vw);
+                                    // right: 16.59px -5px;
+                                }
+                                .slide4Item_body_text_cost_container{
+                                  
+                                    height: 100%;
+                                    display: flex;
+                                    align-items: initial;
+                                    flex-flow: wrap;
+                                    z-index: 1;
+                                    justify-content: center;
+                                    
+                                    .slide4Item_body_text_cost_container__num{
+                                        font-family: Arvo;
+                                        font-style: normal;
+                                        font-weight: bold;
+                                        font-size: 7.813vw;
+                                        line-height: 9.635vw;
+                                        // font-size: 60px;
+                                        // line-height: 74px;
+                                        text-align: center;
+                                        margin: 0;
+                                        color: #212121;
+                                        
+                                        height: 9.176vw;
+                                        width: 7.201vw;
+                                        // width: 55.3px;
+                                        // height: 90.92px;
+                                        
+                                    }
+                                    .slide4Item_body_text_cost_container__rub{
+                                        font-family: Avenir;
+                                        // font-family: Avenir;
+                                        font-style: normal;
+                                        font-weight: 800;
+                                        font-size: 3.906vw;
+                                        line-height: 6.25vw;
+                                        // font-size: 30px;
+                                        // line-height: 48px;
+                                        /* or 160% */
+                                        text-align: center;
+
+                                        color: #212121;
+    
+                                        margin: 2.258vw 0 0 -0.902vw;
+                                        // margin: 17.34px 0 0 calc(9.67px - 16.6px);
+    
+                                        width: 2.091vw;
+                                        height: 5.576vw;
+                                        // width: 16.06px;
+                                        // height: 42.82px;
+                                    }
+                                    .slide4Item_body_text_cost_container__num2{
+                                       
+                                        font-family: Arvo;
+                                        font-style: normal;
+                                        font-weight: bold;
+                                        font-size: 6.771vw;
+                                        line-height: 8,333vw;
+                                        // font-size: 52px;
+                                        // line-height: 64px;
+                                        text-align: center;
+
+                                        color: #212121;
+    
+                                        width: 20.384vw;
+                                        height: 11.557vw;
+                                        // width: 156.55px;
+                                        // height: 88.76px;
+                                        margin: 0;
+                                        
+                                    }
+                                    .slide4Item_body_text_cost_container__rub2{
+                                        // margin: -26px 0 0 0;
+                                        font-family: Avenir;
+                                        // font-family: Avenir;
+                                        font-style: normal;
+                                        font-weight: 800;
+                                        font-size: 2.083vw;
+                                        line-height: 6.25vw;
+                                        // font-size: 16px;
+                                        // line-height: 48px;
+                                        /* or 300% */
+                                        text-align: center;
+
+                                        color: #212121;
+                                        width: 15.717vw;
+                                        height: 7.022vw;
+                                        margin: -5.747vw 0 0 0;
+                                        // margin: -44.14px 0 0 0;
+                                        // width: 120.71px;
+                                        // height: 53.93px;
+                                        
+                                    }
+                                    
+                                }
+                                
+                            }
+                            .slide4Item_body_text__main{
+                               
+                                margin: 0px 0 2.148vw 0.781vw;
+                                width: 13.411vw;
+                                height: 9.896vw;
+                                // margin: 0px 0 0 6px;
+                                // width: 103px;
+                                // height: 76px;
+                               
+                                padding: initial;
+    
+                                /* Text_Info_960 */
+                                font-family: Avenir Next Cyr;
+                                font-style: normal;
+                                font-weight: 500;
+                                font-size: 1.563vw;
+                                line-height: 2.083vw;
+                                // font-size: 12px;
+                                // line-height: 16px;
+                                /* or 133% */
+                                letter-spacing: 0.443077px;
+    
+                                color: #3E464F;
+                            }
+                            
+                        }
+                        .slide4Item_body__btn{
+                            margin: 0 0 0 0;
+                            width: 13.542vw;
+                            height: 4.16732vw;
+                            // margin: 16px 0 0 0;
+                            // width: 104px;
+                            // height: 32px;
+                            border: 0;
+    
+                            background: linear-gradient(180deg, #1792C7 0%, #00B8F0 100%);
+                            box-shadow: 0px 6px 18px rgba(53, 152, 254, 0.38185);
+                            border-radius: 3px;
+    
+                            font-family: Avenir Next Cyr;
+                            font-style: normal;
+                            font-weight: 500;
+                            font-size: 2.083vw;
+                            line-height: 2.865vw;
+                            // font-size: 16px;
+                            // line-height: 22px;
+                            text-align: center;
+                            letter-spacing: 0.369231px;
+    
+                            color: #FFFFFF;
+                            transition: .5s;
+                            &:hover{
+                                box-shadow: 0px 6px 18px rgba(53, 152, 254, 0.88185);
+                            }
+                        }
+                       
+    
+                    }
+    
+                }
+            }
+        }
+    }
+}
+@media (min-width: 1440px) { 
+    .section6{
+        // position: relative;
+        
+        h2{
+            text-align: left;
+            margin: 0 0 0 18.372vw;
+            // margin: 0 0 0 264.55px;
+           /* H0 */
+            font-family: Avenir Next Cyr;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 2.778vw;
+            line-height: 3.889vw;
+            // font-size: 40px;
+            // line-height: 56px;
+            /* identical to box height, or 140% */
+            letter-spacing: 0.985946px;
+
+            color: #000000;
+        }
+        .cover4Slider{
+            .slide4{
+                margin: 0;
+                .slick-list {
+                    padding: 4.306vw 0 22.688vw 17.222vw;
+                    // padding: 62px 0 326.7px calc(248px + 0px);
+                    margin: 0 0 0 calc(-0px);
+                    .slick-track{
+                        .slick-slide {
+                            background:transparent;
+                            margin: 0 0 0 calc(0px);
+                            div{
+                                .slide4Item{
+                                    position: relative;
+                                    
+                                    max-width: 15.556vw;
+                                    height: 26.111vw;
+                                    // max-width: 224px;
+                                    // height: 376px;
+                                    background: transparent;
+                                    padding: 1.867vw 3.076vw 2.258vw 3.333vw;
+                                    // padding: 26.88px 44.3px 32.52px 48px;
+                                    transition: .5s;
+                                    .slide4Item_svgLine{
+                                        position: absolute;
+                                        width: 0.139vw;
+                                        height: 11.389vw;
+                                        top: 2.778vw;
+                                        // width: 2px;
+                                        // height: 164px;
+                                        // top: 40px;
+
+                                        right: 0;
+                                        display: flex;
+                                    }
+                                    &:hover{
+                                        background: white;
+                                        box-shadow: 0px -3px 50px rgba(56, 152, 254, 0.187528);
+                                    }
+                                    h4{
+                                        width: initial;
+                                        height: 1.17vw;
+                                        margin: 0 0 0.933vw 0;
+                                        // height: 16.85px;
+                                        // margin: 0 0 13.43px 0;
+                    
+                                        font-family: Avenir Next Cyr;
+                                        font-style: normal;
+                                        font-weight: bold;
+                                        font-size: 0.833vw;
+                                        line-height: 1.111vw;
+                                        // font-size: 12px;
+                                        // line-height: 16px;
+                                        /* identical to box height */
+                                        text-align: center;
+                                        letter-spacing: 2.4px;
+                
+                                        color: #212121;
+                    
+                                    }
+                                    .slide4Item_body{
+                                        display: flex;
+                                        flex-flow: column;
+                                        height: calc(100% - 2.258vw);
+                                        // height: calc(100% - 32.52px);
+                                        .slide4Item_body_text{
+                                            .slide4Item_body_text_cost{
+                                                display: flex;
+                                                width: 100%;                                                
+                                                margin: 0 0 0 0;
+                                                // margin: 0 0 3.589vw 0;
+                                                height: initial;
+                                                // margin: 0 0 51.68px 0;
+                                                // height: 67.64px;
+                                                justify-content: center;
+                                                position: relative;
+                                              
+                                                .slide4Item_body_text_cost__svg1{
+                                                    display: none;
+                                                    position: absolute;
+                                                    top: 0;
+                                                    width: 5.717vw;
+                                                    height: 4.697vw;
+                                                    // width: 82.33px;
+                                                    // height: 67.64px;
+                                                    right: 0.139vw;
+                                                    // right: 2px;
+                                                    
+                                                }
+                                                .slide4Item_body_text_cost__svg2{
+                                                    display: none;
+                                                    position: absolute;
+                                                    
+                                                    top: 0;
+                                                    right: calc(1.152vw + 0.139vw);
+                                                    // right: calc(1.152vw + 2px);
+                                                    width: 5.701vw;
+                                                    height: 4.697vw;
+                                                    // right: 16.59px;
+                                                    // width: 82.09px;
+                                                    // height: 67.64px;
+                                                }
+                                                .slide4Item_body_text_cost_container{
+                                                    // position: relative;
+                                                    height: initial;
+                                                    display: flex;
+                                                    align-items: initial;
+                                                    flex-flow: wrap;
+                                                    z-index: 1;
+                                                    justify-content: center;
+                                                    // margin: 0 24px 0 0;
+                                                    .slide4Item_body_text_cost_container__num{
+                                                        font-family: Arvo;
+                                                        font-style: normal;
+                                                        font-weight: bold;
+                                                        font-size: 4.167vw;
+                                                        line-height: 5.139vw;
+                                                        // font-size: 60px;
+                                                        // line-height: 74px;
+                                                        text-align: center;
+                
+                                                        color: #212121;
+                                                        width: 4.838vw;
+                                                        height: 6.164vw;
+                                                        margin: 0.329vw 0 0 0;
+                                                        // width: 69.66px;
+                                                        // height: 88.76px;
+                                                        // margin: 4.74px 0 0 0;
+                                                       
+                                                    }
+                                                    .slide4Item_body_text_cost_container__rub{
+                                                        font-family: Avenir;
+                                                        font-size: 2.083vw;
+                                                        line-height: 3.333vw;
+                                                        // font-size: 30px;
+                                                        // line-height: 48px;
+                                                        /* or 160% */
+                                                        text-align: center;
+                                                        
+                                                        color: #212121;
+                    
+                                                        margin: calc(0.329vw + 1.517vw) 0 0 -0.481vw;
+                                                        width: 1.404vw;
+                                                        height: 3.749vw;
+                                                        // margin: calc(4.74px + 21.84px) 0 0 -0.481vw;
+                                                        // width: 20.22px;
+                                                        // height: 53.99px;
+                                                        
+                                                    }
+                                                    .slide4Item_body_text_cost_container__num2{
+                                                        // margin: -12px 0 0 0;
+                                                        font-family: Arvo;
+                                                        font-style: normal;
+                                                        font-weight: bold;
+                                                        font-size: 4.167vw;
+                                                        line-height: 5.139vw;
+                                                        // font-size: 60px;
+                                                        // line-height: 74px;
+                                                        text-align: center;
+                
+                                                        color: #212121;
+                    
+                                                        width: 10.872vw;
+                                                        height: 6.164vw;
+                                                        // width: 156.55px;
+                                                        // height: 88.76px;
+                                                        margin: 0;
+                                                        // height: 70.47px;
+                                                    }
+                                                    .slide4Item_body_text_cost_container__rub2{
+                                                        // margin: -26px 0 0 0;
+                                                        font-family: Avenir;
+                                                        // font-family: Avenir;
+                                                        font-size: 1.806vw;
+                                                        line-height: 3.333vw;
+                                                        // font-size: 26px;
+                                                        // line-height: 48px;
+                                                        /* or 185% */
+                                                        text-align: center;
+                
+                                                        color: #212121;
+                                                        width: 8.383vw;
+                                                        height: 3.745vw;
+                                                        
+                                                        // width: 120.71px;
+                                                        // height: 53.93px;
+                                                        margin: calc(2.15vw - 3.745vw) 0 0 0;
+                                                        // margin: calc(30.96px - 53.93px) 0 0 0;
+                                                    }
+                                                    
+                                                }
+                                                
+                                            }
+                                            .slide4Item_body_text__main{
+                                                
+                                                // width: 8.958vw;
+                                                height: 6.667vw;
+                                                width: 10.108vw;
+                                                // height: 96px;
+                                                // width: 145.55px;
+                                                
+                                                padding: 0 0 0 0.347vw;
+                                                // padding: 0 0 0 5px;
+                                                
+                                                margin: 0px ;
+                                                /* Text_Info */
+                                                font-family: Avenir Next Cyr;
+                                                font-style: normal;
+                                                font-weight: 500;
+                                                font-size: 1.111vw;
+                                                line-height: 1.667vw;
+                                                // font-size: 16px;
+                                                // line-height: 24px;
+                                                /* or 150% */
+                                                letter-spacing: 0.443077px;
+
+                                                color: #3E464F;
+                                            }
+                                        }
+                                        // .slide4Item_body_vectorSvg{
+                                        //     position: absolute;
+                                        //     // top: 0;
+                                        //     height: 4.697vw;
+                                        //     width: calc(5.717vw + 1.152vw);
+                                        //     // height: 67.64px;
+                                        //     // width: calc(82.33 + 16.59px);
+                                            
+                                        // }
+                                        .slide4Item_body__btn{
+                                            display: none;
+                                            margin: 2.847vw auto 0;
+                                            width: 7.222vw;
+                                            height: 2.222vw;
+                                            min-height: 2.222vw;
+                                            // margin: 41px auto 0;
+                                            // width: 104px;
+                                            // height: 32px;
+                                            border: 0;
+                    
+                                            background: linear-gradient(180deg, #1792C7 0%, #00B8F0 100%);
+                                            box-shadow: 0px 6px 18px rgba(53, 152, 254, 0.38185);
+                                            border-radius: 3px;
+                    
+                                            font-family: Avenir Next Cyr;
+                                            font-style: normal;
+                                            font-weight: 500;
+                                            font-size: 1.111vw;
+                                            line-height: 1.528vw;
+                                            // font-size: 16px;
+                                            // line-height: 22px;
+                                            text-align: center;
+                                            letter-spacing: 0.369231px;
+                    
+                                            color: #FFFFFF;
+                                            transition: .5s;
+                                            &:hover{
+                                                box-shadow: 0px 6px 18px rgba(53, 152, 254, 0.88185);
+                                            }
+                                        }
+                    
+                                    }
+                    
+                                }    
+                            }
+                        }
+                        
+                        .slick-slide.slick-current > div{
+                            .slide4Item{
+                               
+                                background: #FFFFFF;
+                                box-shadow: 0px -3px 50px rgba(56, 152, 254, 0.187528);
+                             
+                                transition: .5s;
+                                
+                                h4{
+                                    width: initial;
+                                   
+                
+                                }
+                                .slide4Item_body{
+                                   
+                
+                
+                                    .slide4Item_body_text{
+                                        .slide4Item_body_text_cost{
+                                            
+                                            .slide4Item_body_text_cost__svg1{
+                                                display: block;
+                                                position: absolute;
+                                                top: 0;
+                                                width: 5.717vw;
+                                                height: 4.697vw;
+                                                // width: 82.33px;
+                                                // height: 67.64px;
+                                                right: 0.694vw;
+                                                // right: 10px;
+                                                
+                                            }
+                                            .slide4Item_body_text_cost__svg2{
+                                                display: block;
+                                                position: absolute;
+                                                
+                                                top: 0;
+                                                right: calc(1.152vw + 0.694vw);
+                                                width: 5.701vw;
+                                                height: 4.697vw;
+                                                // right: 16.59px;
+                                                // width: 82.09px;
+                                                // height: 67.64px;
+                                            }
+                                           
+                                            .slide4Item_body_text_cost_container{
+                                               
+                                                .slide4Item_body_text_cost_container__num{
+                                                    
+                                                }
+                                                .slide4Item_body_text_cost_container__rub{
+                                                   
+                                                }
+                                                .slide4Item_body_text_cost_container__num2{
+                                                    
+                                                }
+                                                .slide4Item_body_text_cost_container__rub2{
+                                                   
+                                                }
+                                                
+                                            }
+                                            
+                                        }
+                                        .slide4Item_body_text__main{
+                                          
+                                        }
+                                    }
+                                    .slide4Item_body_vectorSvg{
+                                       
+                                        
+                                    }
+                                    .slide4Item_body__btn{
+                                        display: block;
+                                       
+                                    }
+                
+                                }
+                
+                            }
+                        }
+                        
+                    } 
+                }
+                
+                
+            }
+        }
+    }
+}
